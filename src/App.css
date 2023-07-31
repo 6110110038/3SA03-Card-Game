@@ -18,4 +18,61 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e3e3e3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.congrats-message,
+.game-over-message,
+.timer,
+.high-scores {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.congrats-message p,
+.game-over-message p,
+.timer p,
+.high-scores h2 {
+  margin-bottom: 10px;
+}
+
+.congrats-message button,
+.game-over-message button {
+  padding: 10px 20px;
+  background-color: #14a1d4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.congrats-message button:hover,
+.game-over-message button:hover {
+  background-color: #00b3ff;
+}
+
+.high-scores {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.high-scores ol {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.high-scores li {
+  font-size: 18px;
+  margin-bottom: 8px;
 }

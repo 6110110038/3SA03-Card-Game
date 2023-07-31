@@ -110,7 +110,7 @@ export default function WordCard(props) {
         <div className="congrats-message">
           <p>ยินดีด้วย คุณทายคำถูกต้อง</p>
           <p>Score: {state.score.toFixed(2)}</p>
-          <button onClick={resetGame}>Play Again</button>
+          <button onClick={resetGame}>เล่นอีกครั้ง</button>
         </div>
       )}
       {state.gameOver && (
